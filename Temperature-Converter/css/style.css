@@ -11,6 +11,8 @@
 
 body
 {
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, #37dca2, #00d9e9, #00cbff, #a8b3ff, #ec9bdb);
 }
 
