@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="gold">
+    <meta name="author" content="priyanshu-udainiya">
+
+    <!-- --------------------CSS Links------------------------------ -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Temperature-Converter</title>
+</head>
+<body>
+    <div class="container">
+      <div class="head"> <h3>Temperature-Converter</h3></div><hr>
+    
+      <div class="input">
+        <div class="box1">
+          <p>Degree</p>
+          <input type="number" class="input_scr">
+        </div>
+        <div class="box1">
+          <p>Type</p>
+          <select name="" id="unit">
+            <!-- <option value="#">Select a unit </option> -->
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsious">Celsious</option>
+            <!-- <option value="kelvin">Kelvin</option> -->
+          </select>
+        </div>
+      </div>
+      <div class="output">
+          <p>Result</p>
+          <div class="value"></div>
+          <!-- <input type="text" class="value" disabled> -->
+          <button onclick="temprature()" class="btn btn-primary">Convert</button>
+      </div>
+      <footer>
+        &#169;2022, Designed by -
+        <a href="https://www.linkedin.com/in/priyanshu-udainiya-453203231/" target="_blank">
+          Priyanshu-Udainiya 
+        </a>
+      </footer>
+    </div>
+
+
+
+    <!-- -----------------------Java-Script Links--------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
